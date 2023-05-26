@@ -4,7 +4,7 @@
 
 package org.lfenergy.compas.sitipe.data.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "Imported_")

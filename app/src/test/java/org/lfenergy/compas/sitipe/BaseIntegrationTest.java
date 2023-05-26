@@ -7,7 +7,7 @@ package org.lfenergy.compas.sitipe;
 import org.junit.jupiter.api.AfterEach;
 import org.lfenergy.compas.sitipe.helper.DatabaseCleaner;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 public class BaseIntegrationTest {
 

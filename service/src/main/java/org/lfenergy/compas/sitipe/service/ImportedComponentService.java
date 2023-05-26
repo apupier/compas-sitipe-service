@@ -9,11 +9,11 @@ import org.lfenergy.compas.sitipe.data.repository.ImportedComponentRepository;
 import org.lfenergy.compas.sitipe.dto.ImportedComponentDTO;
 import org.lfenergy.compas.sitipe.dto.ImportedDataDTO;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
-import javax.transaction.Transactional;
-import javax.ws.rs.InternalServerErrorException;
-import javax.ws.rs.NotFoundException;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.transaction.Transactional;
+import jakarta.ws.rs.InternalServerErrorException;
+import jakarta.ws.rs.NotFoundException;
 import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -74,7 +74,7 @@ public class ImportedComponentService {
     }
 
     @Transactional
-    private ImportedComponent getEntity(final Integer id) {
+    public ImportedComponent getEntity(final Integer id) {
         return importedComponentRepository.getById(id);
     }
 }

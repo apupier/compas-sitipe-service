@@ -15,7 +15,7 @@ import org.lfenergy.compas.sitipe.data.entity.BayTypical;
 import org.lfenergy.compas.sitipe.data.entity.SystemVersion;
 import org.lfenergy.compas.sitipe.helper.SystemVersionHelper;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import static io.restassured.RestAssured.given;
 import static java.util.Arrays.asList;

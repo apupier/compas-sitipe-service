@@ -7,7 +7,7 @@ package org.lfenergy.compas.sitipe.data.repository;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import org.lfenergy.compas.sitipe.data.entity.SystemVersion;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.List;
 
 @ApplicationScoped

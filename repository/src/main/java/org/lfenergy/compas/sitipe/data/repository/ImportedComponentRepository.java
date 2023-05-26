@@ -7,8 +7,8 @@ package org.lfenergy.compas.sitipe.data.repository;
 import io.quarkus.hibernate.orm.panache.PanacheRepositoryBase;
 import org.lfenergy.compas.sitipe.data.entity.ImportedComponent;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.persistence.LockModeType;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.persistence.LockModeType;
 import java.util.List;
 
 @ApplicationScoped

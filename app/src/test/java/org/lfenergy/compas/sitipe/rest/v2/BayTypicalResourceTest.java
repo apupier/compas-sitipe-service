@@ -19,9 +19,9 @@ import org.lfenergy.compas.sitipe.data.entity.SystemVersion;
 import org.lfenergy.compas.sitipe.dto.BTComponentDTO;
 import org.lfenergy.compas.sitipe.helper.SystemVersionHelper;
 
-import javax.inject.Inject;
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.MediaType;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;

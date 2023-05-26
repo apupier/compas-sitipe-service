@@ -13,7 +13,7 @@ import org.lfenergy.compas.sitipe.BaseIntegrationTest;
 import org.lfenergy.compas.sitipe.data.entity.ImportedComponent;
 import org.lfenergy.compas.sitipe.helper.SystemVersionHelper;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 
 import java.io.IOException;

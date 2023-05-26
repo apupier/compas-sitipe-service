@@ -12,7 +12,7 @@ import org.lfenergy.compas.sitipe.data.entity.ImportedComponent;
 import org.mockito.ArgumentCaptor;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import javax.persistence.LockModeType;
+import jakarta.persistence.LockModeType;
 import java.util.List;
 import java.util.UUID;
 

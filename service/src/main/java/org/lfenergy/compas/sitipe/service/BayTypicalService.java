@@ -9,8 +9,8 @@ import org.lfenergy.compas.sitipe.data.repository.BayTypicalRepository;
 import org.lfenergy.compas.sitipe.data.repository.SystemVersionRepository;
 import org.lfenergy.compas.sitipe.dto.BayTypicalDTO;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
