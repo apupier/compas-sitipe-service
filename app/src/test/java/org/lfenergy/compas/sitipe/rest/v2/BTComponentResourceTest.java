@@ -95,12 +95,13 @@ class BTComponentResourceTest extends BaseIntegrationTest {
         var response = given()
                 .when().get("/imported/{id}", 10)
                 .then()
-                .statusCode(500)
+                .statusCode(404)
                 .extract()
                 .response();
 
+
         JsonPath jsonPath = response.jsonPath();
 
-        assertEquals("CORE-9999", ((LinkedHashMap<String, ?>)((ArrayList)((LinkedHashMap<String, ?>)jsonPath.get()).get("errorMessages")).get(0)).get("code"));
+        assertEquals("Imported BT Component not found", jsonPath.getString("message"));
     }
 }

@@ -35,6 +35,7 @@ public class ImportedComponentService {
         this.importedComponentRepository = importedComponentRepository;
     }
 
+    @Transactional
     public List<ImportedComponentDTO> getByAccessId(final String accessId) {
         return importedComponentRepository.getByAccessId(accessId)
             .stream()
@@ -42,6 +43,7 @@ public class ImportedComponentService {
             .toList();
     }
 
+    @Transactional
     public ImportedDataDTO getImportedComponentData(final Integer id) {
         final ImportedComponent importedComponent = this.getEntity(id);
 
